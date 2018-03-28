@@ -43,6 +43,10 @@ It uses method swizzling to replace the standard implementations of `objectForKe
 - No modifications to your app necessary (modifications only happen while testing)
 - Overrides are never persisted to disk and don't influence other processes
 
+## What's missing?
+
+- Does not send KVO notifications when a key is overridden
+
 ## License
 
 I've released this code under the MIT license. If you need a different license, let me know!
